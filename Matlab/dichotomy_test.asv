@@ -1,0 +1,5 @@
+clear;clc;
+[k, x] = dichotomy(@dichotomyfun,1e-10,0,1);
+% 绘制迭代过程图图像
+ite = linspace(1,k,k);
+plot(ite,x,)
